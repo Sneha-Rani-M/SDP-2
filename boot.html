@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Main blue background */
+        .profile {
+            background-color: #4db5d1;
+            min-height: 650px;
+            padding: 40px;
+            margin-top: 15px;
+        }
+
+        /* Profile photo */
+        .photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ffffff;
+            display: block;
+            margin: auto;
+        }
+
+        /* Profile name and description */
+        .profile-info {
+            padding-left: 20px;
+            color: #172d40;
+        }
+
+        /* School and college cards */
+        .box {
+            background-color: #d27bae;
+            min-height: 215px;
+            border-radius: 20px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        /* School and college photos */
+        .college-photo {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 2px solid white;
+        }
+
+        /* Card headings */
+        .box h5 {
+            margin-top: 12px;
+            margin-bottom: 0;
+            color: #172d40;
+            font-weight: bold;
+        }
+
+        /* Achievements card */
+        .green {
+            background-color: #9bd58c;
+            min-height: 150px;
+        }
+
+        /* Responsive design for mobile */
+        @media (max-width: 767px) {
+            .profile {
+                padding: 20px;
+            }
+
+            .profile-info {
+                padding: 20px 0 0;
+                text-align: center;
+            }
+
+            .photo {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main container -->
+    <div class="container-fluid">
+
+        <!-- Blue profile section -->
+        <div class="profile">
+
+            <!-- Profile photo, name and description -->
+            <div class="row align-items-center mb-4">
+
+                <!-- YOUR PROFILE PHOTO -->
+                <div class="col-md-3 text-center">
+                    <img src="C:\Users\achyu\OneDrive\Pictures\Screenshots\Screenshot 2026-09-29 094507.png"
+                         class="photo"
+                         alt="My Profile Photo">
+                </div>
+
+                <!-- YOUR NAME AND DESCRIPTION -->
+                <div class="col-md-9 profile-info">
+                    <h1>Sneha Rani M</h1>
+                    <p class="fs-5">
+                        2nd yesr CSE student at NIE college Mysuru
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- School and college cards -->
+            <div class="row g-3 mt-2">
+
+                <!-- SCHOOL PHOTO -->
+                <div class="col-md-4">
+                    <div class="box">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVI0RCiM3bbKW0axvEHyr5U0lvt8tYc2Hiak-39MCRJenmMTtVsc5PCzs&s=10"
+                             class="college-photo"
+                             alt="My School">
+                        <h5>Adarsha Vidyalaya [RMSA] Siruguppa</h5>
+                    </div>
+                </div>
+
+                <!-- PU COLLEGE PHOTO -->
+                <div class="col-md-4">
+                    <div class="box">
+                        <img src="https://images.jdmagicbox.com/comp/bellary/33/9999pmulblrstd2017333/catalogue/ses-polytechnic-college-siruguppa-bellary-colleges-z0lrXvqlH3-250.jpg"
+                             class="college-photo"
+                             alt="My PU College">
+                        <h5>VKJ PU college Siruguppa</h5>
+                    </div>
+                </div>
+
+                <!-- ENGINEERING COLLEGE PHOTO -->
+                <div class="col-md-4">
+                    <div class="box">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.Nh6V2Ki5hPpgGkQKtCBJfwHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                             class="college-photo"
+                             alt="My Engineering College">
+                        <h5>NIE college Mysuru</h5>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ACHIEVEMENTS CARD -->
+            <div class="row justify-content-center mt-3">
+
+                <div class="col-md-4">
+                    <div class="box green">
+                        <h5>My Achievements</h5>
+                        <h6>Actively participated in academic activities and extra curricular activities</h6>
+    
+                        <p class="mt-2 mb-0">
+                            
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
